@@ -63,9 +63,9 @@
             // 
             this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.timeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timeLabel.Location = new System.Drawing.Point(281, 26);
+            this.timeLabel.Location = new System.Drawing.Point(281, 11);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(200, 30);
+            this.timeLabel.Size = new System.Drawing.Size(200, 50);
             this.timeLabel.TabIndex = 0;
             this.timeLabel.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -83,9 +83,9 @@
             // plusLeftLabel
             // 
             this.plusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.plusLeftLabel.Location = new System.Drawing.Point(50, 75);
+            this.plusLeftLabel.Location = new System.Drawing.Point(12, 75);
             this.plusLeftLabel.Name = "plusLeftLabel";
-            this.plusLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.plusLeftLabel.Size = new System.Drawing.Size(98, 50);
             this.plusLeftLabel.TabIndex = 2;
             this.plusLeftLabel.Text = "?";
             this.plusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -103,7 +103,7 @@
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(248, 75);
+            this.label3.Location = new System.Drawing.Point(294, 75);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 50);
             this.label3.TabIndex = 4;
@@ -115,7 +115,7 @@
             this.plusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.plusRightLabel.Location = new System.Drawing.Point(182, 75);
             this.plusRightLabel.Name = "plusRightLabel";
-            this.plusRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.plusRightLabel.Size = new System.Drawing.Size(106, 50);
             this.plusRightLabel.TabIndex = 5;
             this.plusRightLabel.Text = "?";
             this.plusRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -123,7 +123,7 @@
             // sum
             // 
             this.sum.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sum.Location = new System.Drawing.Point(332, 74);
+            this.sum.Location = new System.Drawing.Point(378, 74);
             this.sum.Name = "sum";
             this.sum.Size = new System.Drawing.Size(100, 55);
             this.sum.TabIndex = 1;
@@ -131,7 +131,7 @@
             // difference
             // 
             this.difference.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.difference.Location = new System.Drawing.Point(331, 137);
+            this.difference.Location = new System.Drawing.Point(377, 137);
             this.difference.Name = "difference";
             this.difference.Size = new System.Drawing.Size(100, 55);
             this.difference.TabIndex = 2;
@@ -141,7 +141,7 @@
             this.minusRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.minusRightLabel.Location = new System.Drawing.Point(181, 138);
             this.minusRightLabel.Name = "minusRightLabel";
-            this.minusRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.minusRightLabel.Size = new System.Drawing.Size(106, 50);
             this.minusRightLabel.TabIndex = 10;
             this.minusRightLabel.Text = "?";
             this.minusRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -149,7 +149,7 @@
             // label5
             // 
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(247, 138);
+            this.label5.Location = new System.Drawing.Point(293, 138);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(60, 50);
             this.label5.TabIndex = 9;
@@ -169,9 +169,9 @@
             // minusLeftLabel
             // 
             this.minusLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.minusLeftLabel.Location = new System.Drawing.Point(49, 138);
+            this.minusLeftLabel.Location = new System.Drawing.Point(12, 138);
             this.minusLeftLabel.Name = "minusLeftLabel";
-            this.minusLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.minusLeftLabel.Size = new System.Drawing.Size(97, 50);
             this.minusLeftLabel.TabIndex = 7;
             this.minusLeftLabel.Text = "?";
             this.minusLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -179,7 +179,7 @@
             // product
             // 
             this.product.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.product.Location = new System.Drawing.Point(332, 201);
+            this.product.Location = new System.Drawing.Point(378, 201);
             this.product.Name = "product";
             this.product.Size = new System.Drawing.Size(100, 55);
             this.product.TabIndex = 3;
@@ -189,7 +189,7 @@
             this.timesRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.timesRightLabel.Location = new System.Drawing.Point(182, 202);
             this.timesRightLabel.Name = "timesRightLabel";
-            this.timesRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesRightLabel.Size = new System.Drawing.Size(105, 50);
             this.timesRightLabel.TabIndex = 15;
             this.timesRightLabel.Text = "?";
             this.timesRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -197,7 +197,7 @@
             // label7
             // 
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(248, 202);
+            this.label7.Location = new System.Drawing.Point(294, 202);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(60, 50);
             this.label7.TabIndex = 14;
@@ -217,9 +217,9 @@
             // timesLeftLabel
             // 
             this.timesLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.timesLeftLabel.Location = new System.Drawing.Point(50, 202);
+            this.timesLeftLabel.Location = new System.Drawing.Point(12, 202);
             this.timesLeftLabel.Name = "timesLeftLabel";
-            this.timesLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.timesLeftLabel.Size = new System.Drawing.Size(98, 50);
             this.timesLeftLabel.TabIndex = 12;
             this.timesLeftLabel.Text = "?";
             this.timesLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -227,7 +227,7 @@
             // quotient
             // 
             this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quotient.Location = new System.Drawing.Point(331, 266);
+            this.quotient.Location = new System.Drawing.Point(377, 266);
             this.quotient.Name = "quotient";
             this.quotient.Size = new System.Drawing.Size(100, 55);
             this.quotient.TabIndex = 4;
@@ -237,7 +237,7 @@
             this.dividedRightLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.dividedRightLabel.Location = new System.Drawing.Point(181, 267);
             this.dividedRightLabel.Name = "dividedRightLabel";
-            this.dividedRightLabel.Size = new System.Drawing.Size(60, 50);
+            this.dividedRightLabel.Size = new System.Drawing.Size(106, 50);
             this.dividedRightLabel.TabIndex = 20;
             this.dividedRightLabel.Text = "?";
             this.dividedRightLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -245,7 +245,7 @@
             // label11
             // 
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(247, 267);
+            this.label11.Location = new System.Drawing.Point(293, 267);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(60, 50);
             this.label11.TabIndex = 19;
@@ -265,9 +265,9 @@
             // dividedLeftLabel
             // 
             this.dividedLeftLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dividedLeftLabel.Location = new System.Drawing.Point(49, 267);
+            this.dividedLeftLabel.Location = new System.Drawing.Point(12, 267);
             this.dividedLeftLabel.Name = "dividedLeftLabel";
-            this.dividedLeftLabel.Size = new System.Drawing.Size(60, 50);
+            this.dividedLeftLabel.Size = new System.Drawing.Size(97, 50);
             this.dividedLeftLabel.TabIndex = 17;
             this.dividedLeftLabel.Text = "?";
             this.dividedLeftLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
